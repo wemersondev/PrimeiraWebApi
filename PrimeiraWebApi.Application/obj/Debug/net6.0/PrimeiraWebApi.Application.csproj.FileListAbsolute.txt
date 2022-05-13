@@ -1,0 +1,17 @@
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Application.deps.json
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Application.dll
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Application.pdb
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.csproj.AssemblyReference.cache
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.AssemblyInfoInputs.cache
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.AssemblyInfo.cs
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.dll
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\refint\PrimeiraWebApi.Application.dll
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.pdb
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\ref\PrimeiraWebApi.Application.dll
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Domain.dll
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Infra.dll
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Infra.pdb
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\bin\Debug\net6.0\PrimeiraWebApi.Domain.pdb
+C:\Users\wemer\source\repos\MinhaPrimeiraWebApi\PrimeiraWebApi.Application\obj\Debug\net6.0\PrimeiraWebApi.Application.csproj.CopyComplete

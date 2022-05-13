@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.4",
           "Newtonsoft.Json": "13.0.1",
+          "PrimeiraWebApi.Application": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -490,6 +491,29 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "PrimeiraWebApi.Application/1.0.0": {
+        "dependencies": {
+          "PrimeiraWebApi.Infra": "1.0.0"
+        },
+        "runtime": {
+          "PrimeiraWebApi.Application.dll": {}
+        }
+      },
+      "PrimeiraWebApi.Domain/1.0.0": {
+        "runtime": {
+          "PrimeiraWebApi.Domain.dll": {}
+        }
+      },
+      "PrimeiraWebApi.Infra/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
+          "PrimeiraWebApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PrimeiraWebApi.Infra.dll": {}
+        }
       }
     }
   },
@@ -848,6 +872,21 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "PrimeiraWebApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrimeiraWebApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrimeiraWebApi.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

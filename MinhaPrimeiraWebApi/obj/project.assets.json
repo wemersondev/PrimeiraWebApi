@@ -711,6 +711,44 @@
             "rid": "win"
           }
         }
+      },
+      "PrimeiraWebApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PrimeiraWebApi.Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PrimeiraWebApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeiraWebApi.Application.dll": {}
+        }
+      },
+      "PrimeiraWebApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PrimeiraWebApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeiraWebApi.Domain.dll": {}
+        }
+      },
+      "PrimeiraWebApi.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
+          "PrimeiraWebApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PrimeiraWebApi.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeiraWebApi.Infra.dll": {}
+        }
       }
     }
   },
@@ -2082,6 +2120,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PrimeiraWebApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../PrimeiraWebApi.Application/PrimeiraWebApi.Application.csproj",
+      "msbuildProject": "../PrimeiraWebApi.Application/PrimeiraWebApi.Application.csproj"
+    },
+    "PrimeiraWebApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PrimeiraWebApi.Domain/PrimeiraWebApi.Domain.csproj",
+      "msbuildProject": "../PrimeiraWebApi.Domain/PrimeiraWebApi.Domain.csproj"
+    },
+    "PrimeiraWebApi.Infra/1.0.0": {
+      "type": "project",
+      "path": "../PrimeiraWebApi.Infra/PrimeiraWebApi.Infra.csproj",
+      "msbuildProject": "../PrimeiraWebApi.Infra/PrimeiraWebApi.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2091,6 +2144,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
       "Newtonsoft.Json >= 13.0.1",
+      "PrimeiraWebApi.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2124,7 +2178,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\wemer\\source\\repos\\MinhaPrimeiraWebApi\\PrimeiraWebApi.Application\\PrimeiraWebApi.Application.csproj": {
+              "projectPath": "C:\\Users\\wemer\\source\\repos\\MinhaPrimeiraWebApi\\PrimeiraWebApi.Application\\PrimeiraWebApi.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
